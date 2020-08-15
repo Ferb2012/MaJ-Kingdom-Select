@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2061715009900371933}
   - component: {fileID: 6628849447997305221}
+  - component: {fileID: 8371364288032043506}
   m_Layer: 5
   m_Name: KingdomButton
   m_TagString: Untagged
@@ -81,6 +82,23 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8371364288032043506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5761907796982111810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7cd38b5adda346779a500abd03c5316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 5369677054749956280}
+  rect: {fileID: 4997008260580697908}
+  circle: {fileID: 6959455549466638892}
+  textColorWhenSelected: {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
+  rectColorMouseOver: {r: 1, g: 1, b: 1, a: 0.2}
 --- !u!1 &5893679245969678828
 GameObject:
   m_ObjectHideFlags: 0
